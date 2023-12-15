@@ -26,3 +26,13 @@ const memberEl = [
     }
 ]
 
+//Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+
+for (let i = 0; i < memberEl.length; i++) {
+    const printMember = memberEl[i];
+    console.log(printMember);
+    
+}
+
+
+//Stampare le stesse informazioni su DOM sottoforma di stringhe
